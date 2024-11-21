@@ -28,9 +28,9 @@ spec:
           resources:
             limits:
               memory: "128Mi"  # Reducido desde 512Mi
-              cpu: "50m"      # Reducido desde 500m
+              cpu: "100m"      # Reducido desde 500m
             requests:
-              memory: "32Mi"  # Reducido desde 256Mi
+              memory: "64Mi"  # Reducido desde 256Mi
               cpu: "50m"      # Reducido desde 250m
         - name: postgres-exporter  # Añadir el exporter
           image: wrouesnel/postgres_exporter:latest
